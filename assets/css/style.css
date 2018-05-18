@@ -29,7 +29,7 @@ header {
 
 .nametag {
     margin: 0px;
-    padding: 0px;
+    padding: 4px 0px 0px 0px;
     height: 50%;
 }
 
@@ -127,7 +127,7 @@ footer {
     height: auto;
 }
 .project_link {
-    background-image: url("https://loremflickr.com/320/240/dog?lock=6");
+    background-image: url("https://loremflickr.com/320/240/dog?lock=7");
     height: 100%;
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
