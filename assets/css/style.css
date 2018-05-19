@@ -110,12 +110,27 @@ img {
     padding-top: 30px;
 }
 
+.wrapper {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -142px; 
+}
+.wrapper:after {
+    content: "";
+    display: block;
+}
+footer, .wrapper:after {
+    height: 80px; 
+}
 footer {
     border-top: solid;
-    border-top-width: 6px;
+    border-top-width: 8px;
     border-top-color: #4aaaa5;
     background-color: black;
-    margin-bottom: -50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 #row_1 {
